@@ -1,0 +1,2813 @@
+@charset "UTF-8";
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%
+}
+
+@media only screen and (max-width:1440px) {
+    .background {
+        width: 100%;
+        overflow: hidden
+    }
+}
+
+.background-slash {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -1500px;
+    width: 3000px;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    height: 200%;
+    transform-origin: 50% 0%;
+    transform: scale(.5)
+}
+
+@media only screen and (min-width:768px) {
+    .background-slash {
+        transform: scale(1)
+    }
+}
+
+.background-slash.background-slash-image {
+    background: url(/images/background-slash.png)
+}
+
+.background-slash .slash-animation-item {
+    position: absolute;
+    left: 50%
+}
+
+.page {
+    padding: 0;
+    overflow-x: hidden
+}
+
+.page.page--with-header {
+    padding-top: 40px
+}
+
+@media only screen and (min-width:640px) {
+    .page.page--with-header {
+        padding-top: 90px
+    }
+}
+
+.parallax-box {
+    position: relative;
+    overflow: hidden
+}
+
+.parallax-box .parallax-box-content {
+    position: absolute;
+    height: 125% !important;
+    top: -25% !important
+}
+
+.hero-container--careers {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--careers {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--careers {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--careers {
+        max-width: 1140px
+    }
+}
+
+.hero-container--careers h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--careers h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--careers h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--careers h1 {
+        left: 0%
+    }
+}
+
+.hero-container--careers h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--careers h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--careers h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--careers h1 .subline span {
+    color: #03fbcd
+}
+
+.hero-container--careers .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--careers .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--careers .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--careers .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--careers .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--careers .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--careers .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--careers .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--careers.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--careers.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--careers.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--vip {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--vip {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--vip {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--vip {
+        max-width: 1140px
+    }
+}
+
+.hero-container--vip h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--vip h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--vip h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--vip h1 {
+        left: 0%
+    }
+}
+
+.hero-container--vip h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--vip h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--vip h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--vip h1 .subline span {
+    color: #c39d62
+}
+
+.hero-container--vip .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--vip .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--vip .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--vip .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--vip .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--vip .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--vip .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--vip .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--vip.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--vip.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--vip.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--about {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--about {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--about {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--about {
+        max-width: 1140px
+    }
+}
+
+.hero-container--about h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--about h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--about h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--about h1 {
+        left: 0%
+    }
+}
+
+.hero-container--about h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--about h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--about h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--about h1 .subline span {
+    color: #fe387d
+}
+
+.hero-container--about .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--about .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--about .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--about .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--about .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--about .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--about .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--about .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--about.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--about.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--about.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--walkr {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--walkr {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--walkr {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--walkr {
+        max-width: 1140px
+    }
+}
+
+.hero-container--walkr h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--walkr h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--walkr h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--walkr h1 {
+        left: 0%
+    }
+}
+
+.hero-container--walkr h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--walkr h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--walkr h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--walkr h1 .subline span {
+    color: #01d7fe
+}
+
+.hero-container--walkr .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--walkr .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--walkr .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--walkr .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--walkr .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--walkr .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--walkr .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--walkr .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--walkr.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--walkr.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--walkr.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--fourdesire {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--fourdesire {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--fourdesire {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--fourdesire {
+        max-width: 1140px
+    }
+}
+
+.hero-container--fourdesire h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--fourdesire h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--fourdesire h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--fourdesire h1 {
+        left: 0%
+    }
+}
+
+.hero-container--fourdesire h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--fourdesire h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--fourdesire h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--fourdesire h1 .subline span {
+    color: #08c
+}
+
+.hero-container--fourdesire .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--fourdesire .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--fourdesire .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--fourdesire .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--fourdesire .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--fourdesire .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--fourdesire .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--fourdesire .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--fourdesire.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--fourdesire.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--fourdesire.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--fortunecity {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--fortunecity {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--fortunecity {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--fortunecity {
+        max-width: 1140px
+    }
+}
+
+.hero-container--fortunecity h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--fortunecity h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--fortunecity h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--fortunecity h1 {
+        left: 0%
+    }
+}
+
+.hero-container--fortunecity h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--fortunecity h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--fortunecity h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--fortunecity h1 .subline span {
+    color: #f7c530
+}
+
+.hero-container--fortunecity .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--fortunecity .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--fortunecity .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--fortunecity .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--fortunecity .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--fortunecity .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--fortunecity .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--fortunecity .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--fortunecity.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--fortunecity.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--fortunecity.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--plantnanny {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--plantnanny {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--plantnanny {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--plantnanny {
+        max-width: 1140px
+    }
+}
+
+.hero-container--plantnanny h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--plantnanny h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--plantnanny h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--plantnanny h1 {
+        left: 0%
+    }
+}
+
+.hero-container--plantnanny h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--plantnanny h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--plantnanny h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--plantnanny h1 .subline span {
+    color: #8bc53f
+}
+
+.hero-container--plantnanny .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--plantnanny .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--plantnanny .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--plantnanny .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--plantnanny .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--plantnanny .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--plantnanny .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--plantnanny .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--plantnanny.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--plantnanny.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--plantnanny.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--plantnanny2 {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--plantnanny2 {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--plantnanny2 {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--plantnanny2 {
+        max-width: 1140px
+    }
+}
+
+.hero-container--plantnanny2 h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--plantnanny2 h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--plantnanny2 h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--plantnanny2 h1 {
+        left: 0%
+    }
+}
+
+.hero-container--plantnanny2 h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--plantnanny2 h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--plantnanny2 h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--plantnanny2 h1 .subline span {
+    color: #9effd5
+}
+
+.hero-container--plantnanny2 .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--plantnanny2 .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--plantnanny2 .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--plantnanny2 .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--plantnanny2 .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--plantnanny2 .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--plantnanny2 .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--plantnanny2 .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--plantnanny2.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--plantnanny2.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--plantnanny2.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--journal {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--journal {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--journal {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--journal {
+        max-width: 1140px
+    }
+}
+
+.hero-container--journal h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--journal h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--journal h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--journal h1 {
+        left: 0%
+    }
+}
+
+.hero-container--journal h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--journal h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--journal h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--journal h1 .subline span {
+    color: #6ac5ff
+}
+
+.hero-container--journal .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--journal .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--journal .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--journal .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--journal .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--journal .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--journal .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--journal .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--journal.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--journal.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--journal.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--bedtime {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--bedtime {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--bedtime {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--bedtime {
+        max-width: 1140px
+    }
+}
+
+.hero-container--bedtime h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--bedtime h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--bedtime h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--bedtime h1 {
+        left: 0%
+    }
+}
+
+.hero-container--bedtime h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--bedtime h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--bedtime h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--bedtime h1 .subline span {
+    color: #fbe991
+}
+
+.hero-container--bedtime .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--bedtime .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--bedtime .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--bedtime .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--bedtime .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--bedtime .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--bedtime .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--bedtime .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--bedtime.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--bedtime.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--bedtime.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--media {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--media {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--media {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--media {
+        max-width: 1140px
+    }
+}
+
+.hero-container--media h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--media h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--media h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--media h1 {
+        left: 0%
+    }
+}
+
+.hero-container--media h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--media h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--media h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--media h1 .subline span {
+    color: #ececec
+}
+
+.hero-container--media .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--media .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--media .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--media .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--media .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--media .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--media .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--media .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--media.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--media.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--media.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--blog {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--blog {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--blog {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--blog {
+        max-width: 1140px
+    }
+}
+
+.hero-container--blog h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--blog h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--blog h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--blog h1 {
+        left: 0%
+    }
+}
+
+.hero-container--blog h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--blog h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--blog h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--blog h1 .subline span {
+    color: #9f31bd
+}
+
+.hero-container--blog .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--blog .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--blog .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--blog .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--blog .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--blog .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--blog .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--blog .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--blog.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--blog.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--blog.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--interns {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--interns {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--interns {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--interns {
+        max-width: 1140px
+    }
+}
+
+.hero-container--interns h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--interns h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--interns h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--interns h1 {
+        left: 0%
+    }
+}
+
+.hero-container--interns h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--interns h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--interns h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--interns h1 .subline span {
+    color: #f3d073
+}
+
+.hero-container--interns .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--interns .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--interns .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--interns .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--interns .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--interns .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--interns .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--interns .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--interns.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--interns.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--interns.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--interns-2021 {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--interns-2021 {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--interns-2021 {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--interns-2021 {
+        max-width: 1140px
+    }
+}
+
+.hero-container--interns-2021 h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--interns-2021 h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--interns-2021 h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--interns-2021 h1 {
+        left: 0%
+    }
+}
+
+.hero-container--interns-2021 h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--interns-2021 h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--interns-2021 h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--interns-2021 h1 .subline span {
+    color: #51fcc8
+}
+
+.hero-container--interns-2021 .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--interns-2021 .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--interns-2021 .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--interns-2021 .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--interns-2021 .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--interns-2021 .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--interns-2021 .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--interns-2021 .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--interns-2021.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--interns-2021.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--interns-2021.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.hero-container--playground {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: oswald, 蘋黑體, 微軟正黑體
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--playground {
+        margin-top: 80px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--playground {
+        margin-top: 100px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--playground {
+        max-width: 1140px
+    }
+}
+
+.hero-container--playground h1 {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 700
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--playground h1 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--playground h1 {
+        font-size: 70px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--playground h1 {
+        left: 0%
+    }
+}
+
+.hero-container--playground h1 .subline {
+    margin-top: 10px;
+    display: block;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .7)
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--playground h1 .subline {
+        font-size: 36px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--playground h1 .subline {
+        font-size: 46px
+    }
+}
+
+.hero-container--playground h1 .subline span {
+    color: #49aae6
+}
+
+.hero-container--playground .hero-image-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 40%;
+    float: right;
+    background: #000
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--playground .hero-image-wrapper {
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:640px) {
+    .hero-container--playground .hero-image-wrapper {
+        margin-top: 90px;
+        width: 90%;
+        padding-top: 36%
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero-container--playground .hero-image-wrapper {
+        width: 720px;
+        height: 290px;
+        padding-top: 0
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .hero-container--playground .hero-image-wrapper {
+        height: 400px;
+        width: 990px;
+        margin-right: 0
+    }
+}
+
+.hero-container--playground .hero-image-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+
+.hero-container--playground .hero-image-container .hero-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover
+}
+
+.hero-container--playground .hero-image-wording {
+    position: absolute;
+    bottom: -84px;
+    left: 0
+}
+
+@media only screen and (min-width:480px) {
+    .hero-container--playground.hero-container--right h1 {
+        left: auto;
+        right: 5%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .hero-container--playground.hero-container--right h1 {
+        right: 0%
+    }
+}
+
+.hero-container--playground.hero-container--right .hero-image-wrapper {
+    float: left
+}
+
+.section--image-container {
+    width: 100%;
+    height: 300px;
+    background: #222;
+    margin-bottom: 60px;
+    overflow: hidden
+}
+
+.section--image-container img {
+    width: 100%
+}
+
+section.section--two-columns {
+    margin: 0 5%
+}
+
+@media only screen and (min-width:480px) {
+    section.section--two-columns {
+        margin: 100px 5% 40px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    section.section--two-columns {
+        margin: 100px auto 40px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    section.section--two-columns {
+        max-width: 1000px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    section.section--two-columns {
+        max-width: 1140px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    section.section--two-columns .column--shift-title {
+        margin-top: 36px
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    section.section--two-columns .column--shift-large {
+        margin-top: 200px
+    }
+}
+
+section.section--two-columns .column {
+    margin-bottom: 20px;
+    width: 100%
+}
+
+@media only screen and (min-width:640px) {
+    section.section--two-columns .column {
+        width: 50%;
+        min-width: 500px
+    }
+}
+
+section.section--two-columns .column.column--left {
+    float: left
+}
+
+section.section--two-columns .column.column--left .column-content {
+    margin-left: 0%
+}
+
+@media only screen and (min-width:480px) {
+    section.section--two-columns .column.column--left .column-content {
+        margin-left: 0%
+    }
+}
+
+@media only screen and (min-width:480px) {
+    section.section--two-columns .column.column--left .column-content {
+        max-width: 360px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    section.section--two-columns .column.column--left .column-content {
+        margin: auto
+    }
+}
+
+section.section--two-columns .column.column--left .column-content--large {
+    width: 100%;
+    margin: auto
+}
+
+@media only screen and (min-width:640px) {
+    section.section--two-columns .column.column--left .column-content--large {
+        width: 110%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    section.section--two-columns .column.column--left .column-content--large {
+        width: auto;
+        margin-right: 10px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    section.section--two-columns .column.column--left .column-content--large {
+        width: 100%;
+        margin-right: 0
+    }
+}
+
+section.section--two-columns .column.column--right {
+    float: right
+}
+
+section.section--two-columns .column.column--right .column-content {
+    margin-left: 0%
+}
+
+@media only screen and (min-width:480px) {
+    section.section--two-columns .column.column--right .column-content {
+        margin-left: auto;
+        margin-right: 5%
+    }
+}
+
+@media only screen and (min-width:480px) {
+    section.section--two-columns .column.column--right .column-content {
+        max-width: 360px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    section.section--two-columns .column.column--right .column-content {
+        margin: auto
+    }
+}
+
+section.section--two-columns .column.column--right .column-content--large {
+    width: 100%;
+    margin: auto;
+    margin-llef: 20px
+}
+
+@media only screen and (min-width:640px) {
+    section.section--two-columns .column.column--right .column-content--large {
+        width: 110%
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    section.section--two-columns .column.column--right .column-content--large {
+        width: auto;
+        margin-left: 10px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    section.section--two-columns .column.column--right .column-content--large {
+        width: 100%;
+        margin-left: 0
+    }
+}
+
+section.section--page {
+    margin: 0 5% 40px
+}
+
+@media only screen and (min-width:1000px) {
+    section.section--page {
+        margin: auto;
+        margin-bottom: 40px;
+        max-width: 1000px
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    section.section--page {
+        margin: auto;
+        margin-bottom: 40px;
+        max-width: 1140px
+    }
+}
+
+.fdpg-content-container {
+    position: relative;
+    width: 100%;
+    height: 510px;
+    max-width: 1000px
+}
+
+.fdpg-how-column {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #49aae6;
+    border-radius: 17px;
+    padding: 27px 18px 0 27px
+}
+
+.fdpg-content {
+    width: 1110px;
+    height: 510px;
+    position: absolute;
+    left: 50%;
+    margin-left: -555px
+}
+
+.positions-slogan {
+    height: 44px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center
+}
+
+.positions-slogan span {
+    display: block;
+    margin-top: -18px
+}
+
+.page-symbol {
+    margin-bottom: 50px;
+    text-align: center;
+    transform: scale(.65);
+    position: relative;
+    z-index: 7
+}
+
+@media only screen and (min-width:768px) {
+    .page-symbol {
+        transform: scale(1)
+    }
+}
+
+.divider {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center
+}
+
+.divider.divider--breaker {
+    max-width: 1000px;
+    margin: 60px auto;
+    border-top: 1px solid #111
+}
+
+.mobile-hide {
+    display: initial
+}
+
+@media only screen and (max-width:768px) {
+    .mobile-hide {
+        display: none
+    }
+}
+
+.mobile-show {
+    display: none
+}
+
+@media only screen and (max-width:768px) {
+    .mobile-show {
+        display: initial
+    }
+}
+
+.image-center-container {
+    margin: 25px 0;
+    width: 100%
+}
+
+.image-center-container .image-content {
+    margin: 0 auto
+}
+
+.image-center-container .image-content img {
+    width: 100%
+}
