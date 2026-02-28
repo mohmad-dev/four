@@ -6,14 +6,14 @@
 
 .background-texture-2 {
     height: 440px;
-    background: url(/images/background-texture-2.png?timestamp=1);
+    background: url(images/background-texture-2.png?timestamp=1);
     position: absolute;
     top: -150px;
     width: 100%
 }
 
 .background-texture-3 {
-    background: url(/images/background-texture-3.png?timestamp=1);
+    background: url(images/background-texture-3.png?timestamp=1);
     position: absolute;
     top: 90px;
     left: 50%;
@@ -24,14 +24,14 @@
 
 .background-texture-4 {
     height: 972px;
-    background: url(/images/background-texture-4.png?timestamp=2);
+    background: url(images/background-texture-4.png?timestamp=2);
     position: absolute;
     top: 350px;
     width: 100%
 }
 
 .background-texture-5 {
-    background: url(/images/background-texture-5.png?timestamp=1);
+    background: url(images/background-texture-5.png?timestamp=1);
     position: absolute;
     top: 180px;
     left: 50%;
@@ -42,14 +42,14 @@
 
 .background-texture-6 {
     height: 945px;
-    background: url(/images/background-texture-6.png?timestamp=4);
+    background: url(images/background-texture-6.png?timestamp=4);
     position: absolute;
     top: 350px;
     width: 100%
 }
 
 .background-texture-7 {
-    background: url(/images/background-texture-7.png?timestamp=1);
+    background: url(images/background-texture-7.png?timestamp=1);
     position: absolute;
     top: 100px;
     left: 50%;
@@ -60,7 +60,7 @@
 
 .background-texture-8 {
     height: 688px;
-    background: url(/images/background-texture-8.png?timestamp=2);
+    background: url(images/background-texture-8.png?timestamp=2);
     position: absolute;
     top: 100px;
     width: 100%
@@ -69,7 +69,7 @@
 .floating-logo {
     width: 186px;
     height: 28px;
-    background: url(/images/fourdesire-logo.png);
+    background: url(images/fourdesire-logo.png);
     position: fixed;
     left: 5%;
     top: 8%;
@@ -1087,7 +1087,7 @@ section.section--home .image-wrapper--product .image-wrapper--content {
 .scroll-down-indicator {
     width: 134px;
     height: 129px;
-    background-image: url(/images/see-what-we-do.png);
+    background-image: url(images/see-what-we-do.png);
     background-size: cover;
     position: absolute;
     bottom: -80px;
