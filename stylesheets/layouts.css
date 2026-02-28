@@ -34,7 +34,7 @@ header .logo {
     position: absolute;
     width: 186px;
     height: 28px;
-    background: url(/images/fourdesire-logo.png);
+    background: url(images/fourdesire-logo.png);
     z-index: 10;
     margin-top: 34px;
     transform-origin: 0% 50%;
